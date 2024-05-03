@@ -16,6 +16,7 @@ header {
 
 .logo img {
     width: 80px;
+    
 }
 
 nav ul {
@@ -133,4 +134,10 @@ footer {
     color: #fff; /* Blanco */
     padding: 20px;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    .logo img {
+    margin-right: 10px
+}
 }
