@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #F39D48; /* Amarillo */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Negro */
+}
+
+/* Estilos de la sección de presentación */
+.presentacion {
+    background-color: #99F047; /* Azul claro */
+    color: #fff; /* Blanco */
+    padding: 50px;
+    text-align: center;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #448904; /* Naranja */
+    color: #fff; /* Blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #cc5500; /* Naranja oscuro */
+}
+
+/* Estilos de la sección de productos */
+.productos {
+    padding: 50px;
+    text-align: center;
+}
+
+.producto {
+    margin-bottom: 30px;
+}
+
+.producto img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.precio {
+    font-weight: bold;
+    color: #ff0000; /* Rojo */
+}
+
+/* Estilos de la sección "Sobre Nosotros" */
+.nosotros {
+    background-color: #66ff66; /* Verde claro */
+    color: #333; /* Negro */
+    padding: 50px;
+    text-align: center;
+}
+
+/* Estilos de la sección de contacto */
+.contacto {
+    background-color: #ff99cc; /* Rosa */
+    color: #333; /* Negro */
+    padding: 50px;
+    text-align: center;
+}
+
+.contacto form {
+    margin-top: 20px;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Gris claro */
+}
+
+.contacto textarea {
+    height: 150px;
+}
+
+.contacto button {
+    background-color: #ff6600; /* Naranja */
+    color: #fff; /* Blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #cc5500; /* Naranja oscuro */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333; /* Gris oscuro */
+    color: #fff; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
