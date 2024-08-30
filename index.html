@@ -4,74 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaracuFresh Oficial </title>
-    <link rel="stylesheet" href="index.css">
-
+    <title>Nequi Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .login-container h1 {
+            color: #ff4081;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            background-color: #ff4081;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .login-container button:hover {
+            background-color: #e03570;
+        }
+        .recaptcha {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-
-<header>
-    <div class="logo">
-        <img src="maracufresh10.png" alt="Logo Micheladas" width="100px">
+    <div class="login-container">
+        <h1>Nequi</h1>
+        <p>Entra a tu Nequi</p>
+        <input type="text" placeholder="Número de celular">
+        <input type="password" placeholder="Clave dinámica">
+        <div class="recaptcha">
+            <input type="checkbox" id="recaptcha">
+            <label for="recaptcha">No soy un robot</label>
+        </div>
+        <button>Entra</button>
     </div>
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=61558986789414" target="_blank"><img src="facebook.png" alt="Facebook" width="20" height="20"></a>
-                <a href="https://www.tiktok.com/@maracufresh_oficial?is_from_webapp=1&sender_device=pc" target="_blank"><img src="tik-tok.png" alt="Tik Tok" width="20" height="20"></a>
-                <a href="https://www.instagram.com/maracufreshoficial?igsh=MXJla3NjZWRlaGNrOQ==" target="_blank"><img src="instagram (1).png" alt="Instagram" width="20" height="20"></a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-    <section id="inicio" class="presentacion">
-        <h1>Bienvenido a maracufresh</h1>
-        <p>¡Descubre el Sabor Fresco de MaracuFresh!. Un sorbo del paraiso en cada gota. </p>
-        <a href="#productos" class="boton">Ver productos</a>
-    </section>
-
-    <section id="productos" class="productos">
-        <h2>Nuestras micheladas</h2>
-        <div class="producto">
-            <img src="maracufresh.jpg" alt="Michelada Clásica">
-            <h3>Michelada Clásica</h3>
-            <p>Una mezcla perfecta de gaseosa ginger, maracuya, mango, gomitas, tagi, sal.</p>
-            <span class="precio">$6.000 COP</span>
-        </div>
-        <div class="producto">
-            <img src="maracufresh.jpg" alt="Michelada de Mango">
-            <h2>PRÓXIMAMENTE</h2>
-            <h3>cervezas</h3>
-            <p>Corona</p>
-            <p>Aguila lite</p>
-            <p>smirnoff</p>
-            <span class="precio">$7.000 COP</span>
-        </div>
-        <div class="producto">
-            <img src="maracufresh.jpg" alt="Michelada de Mango">
-            <h3>toppings </h3>
-            <p>Chispitas</p>
-            <p>Adicion de gomas</p>
-            <p>Adicion de mango</p>
-            <span class="precio">$500 COP </span>
-        </div>
-      
-    </section>
-
-    <section id="nosotros" class="nosotros">
-        <h2>¿Quienes somos?</h2>
-        <p>Somos una empresa dedicada a elaborar las mejores micheladas de la región. Utilizamos ingredientes frescos y de alta calidad para garantizar la mejor experiencia para nuestros clientes.</p>
-    </section>
-
-    
-</main>
-
-<footer>
-    <p>&copy; 2024 MaracuFresh. Todos los derechos reservados.</p>
-</footer>
-
 </body>
 </html>
